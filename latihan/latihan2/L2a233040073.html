@@ -1,25 +1,54 @@
 <html>
   <head>
     <title>Tabel</title>
+    <style>
+      table{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightblue;
+      }
+      thead{
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
-    <table width="30%" border="5" cellspacing="5" cellpadding="15">
+    <table width="85%" border="1" cellspacing="5" cellpadding="10">
       <tr>
-        <td colspan="5">Data Mahasiswa</td>  
+      <thead> 
+      <tr>
+       <td colspan="13" align="center">Data Mahasiswa</td>
       </tr>
-        <td rowspan="2">No.</td>
-        <td rowspan="2">NRP</td>
-        <td rowspan="1">Nama</td>
-        <td>Alamat</td>
-        <td> No.HP</td>
       <tr>
-        <td rowspan="1">Nama Depan</td>
-        <td rowspan="1">Nama Belakang</td>
+        <td rowspan="2">No.</td>
+        <td colspan="2" rowspan="2" align="center">NRP</td>
+        <td colspan="5" align="center">Nama</td>
+        <td colspan="2" rowspan="2" align="center">Alamat</td>
+        <td colspan="3" rowspan="2" align="center">No.HP</td>
+      </tr>
+      <tr>
+        <td colspan="2">Nama depan</td>
+        <td colspan="3">Nama belakang</td>
+      </tr>
+      </thead>
+      <tr>
+        <td>1</td>
+       <td colspan="2">113030001</td>
+        <td colspan="2">Asep</td>
+        <td colspan="3">Setia</td>
+        <td colspan="2">Setiabudhi</td>
+        <td colspan="3">081234567890</td>  
       </tr>
       <tr>
         <td rowspan="2">2</td>
+        <td rowspan="2" colspan="2">113040011</td>
+        <td colspan="2" rowspan="2">Dani</td>
+        <td colspan="3" rowspan="2">Gunawan</td>
+        <td colspan="2" rowspan="2">Lembang</td>
+        <td>089038131212</td>
       </tr>
-
+      <tr>
+        <td>081392482222</td>
+      </tr>     
     </table>
   </body>
 </html>

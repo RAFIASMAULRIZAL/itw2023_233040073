@@ -1,0 +1,22 @@
+html, head 
+body{
+  background-color: aqua;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  
+}
+h1{
+  font-size: 60px;
+  font-family: comic sans MS;
+  color: darkblue;
+}
+.p1{
+  text-align: center;
+}
+.p2{
+  text-align: center;
+}
+h4{
+  font-style: italic;
+  text-align: right;
+}

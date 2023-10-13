@@ -1,0 +1,26 @@
+html, body{
+  background-color: aqua;
+  font-family: Georgia;
+  text-align: justify;
+}
+h1{
+  font-size: 60px;
+  font-family: comic sans MS;
+  color: darkblue;
+  text-align: center;
+}
+h4{
+  font-style: italic;
+  text-align: right;
+}
+.a1 {
+  color: white;
+}
+.p1{
+  text-align: center;
+  color: orange;
+}
+.p2 {
+  text-align: center;
+  line-height: 25px;
+}

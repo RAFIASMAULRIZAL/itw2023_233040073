@@ -1,0 +1,36 @@
+html, body{
+  background-color: aqua;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+body{
+  background-repeat: repeat-x;
+}
+h1{
+  font-size: 60px;
+  font-family: comic sans MS;
+  color: darkblue;
+  text-align: center;
+}
+h4{
+  font-style: italic;
+  text-align: right;
+}
+.a1 {
+  color: white;
+}
+.link:hover{
+  color: red;
+}
+.link2:hover{
+  color: white;
+  background-color: blue;
+}
+.p1{
+  text-align: center;
+  color: orange;
+}
+.p2 {
+  text-align: center;
+  line-height: 25px;
+}
