@@ -166,7 +166,6 @@ body {
   background-color: green;
   color: white;
   transition: all .2s ease-in-out;  
-  border-radius: 1px;
 
 }
 
@@ -178,14 +177,21 @@ body {
   border-bottom: 5px solid lightskyblue;
   border-top: 5px solid green;
 }
-.hero1 {
-  background-image: url(img/hero1.jpg);
+.foto1 {
+  background-image: url(img/foto1.jpg);
   height: 300px;
   background-size: cover;
   background-position:0 -180px;
   margin-top: 10px;
   margin-bottom: 10px;
-  
+}
+.foto2 {
+  background-image: url(img/foto2.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position:0 -180px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -223,4 +229,4 @@ content .penulis a {
   color: #eaeaeaea;
   text-align: center;
   font-size: 12px;
-}
+} 
