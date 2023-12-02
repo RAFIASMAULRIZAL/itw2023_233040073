@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VARACO Merch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">VARACO Merch Shop</h2>
+          <p class="sub-heading">Hoodie & T-Shirt</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 250K</h4>
+          <p class="item">Hoodie</p>
+        </div>
+
+        <div class="features feature-2">
+          <h4 class="price">IDR 150K</h4>
+          <p class="item">T-Shirt</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>VARAZO Merch</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Penyedia Merch</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            tempore eveniet explicabo adipisci veritatis. Commodi?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Tutorial</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            tempore eveniet explicabo adipisci veritatis. Commodi?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Online Course</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            tempore eveniet explicabo adipisci veritatis. Commodi?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Podcast</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            tempore eveniet explicabo adipisci veritatis. Commodi?
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/800x800" alt="" />
+        <img src="https://source.unsplash.com/random/801x801" alt="" />
+        <img src="https://source.unsplash.com/random/802x802" alt="" />
+        <img src="https://source.unsplash.com/random/803x803" alt="" />
+        <img src="https://source.unsplash.com/random/804x804" alt="" />
+        <img src="https://source.unsplash.com/random/805x805" alt="" />
+        <img src="https://source.unsplash.com/random/806x806" alt="" />
+        <img src="https://source.unsplash.com/random/807x807" alt="" />
+        <img src="https://source.unsplash.com/random/808x808" alt="" />
+        <img src="https://source.unsplash.com/random/809x809" alt="" />
+        <img src="https://source.unsplash.com/random/810x810" alt="" />
+        <img src="https://source.unsplash.com/random/811x811" alt="" />
+        <img src="https://source.unsplash.com/random/812x812" alt="" />
+        <img src="https://source.unsplash.com/random/813x813" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
